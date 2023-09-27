@@ -22,7 +22,7 @@ SKILLS = [
 
 @app.route("/")
 def hello_world():
-    return render_template('index.html', skills= SKILLS)
+    return render_template('index.html', skills=SKILLS)
 
 
 if __name__ == "__main__":
